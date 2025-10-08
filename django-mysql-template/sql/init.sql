@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS core_user_test (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(100),
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+INSERT INTO core_user_test (name) VALUES ('tester');
